@@ -1,0 +1,49 @@
+{
+  "name": "grunt-script-template",
+  "description": "Generates files using script-template",
+  "version": "0.0.1",
+  "homepage": "https://github.com/samuelneff/grunt-script-template",
+  "author": {
+    "name": "Samuel Neff",
+    "url": "https://github.com/samuelneff"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/samuelneff/grunt-script-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/samuelneff/grunt-script-template/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/samuelneff/grunt-script-template/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "chalk": "~0.4.0",
+    "script-template": "~1.0.3"
+  },
+  "devDependencies": {
+    "grunt"                 : "~0.4.0",
+    "grunt-contrib-clean"   : "~0.5.0",
+    "grunt-jasmine-node"    : "0.2.1",
+    "jasmine-node"          : "1.14.2"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.0"
+  },
+  "keywords": [
+    "gruntplugin", "template", "generate"
+  ],
+  "files": [
+    "tasks",
+    "LICENSE-MIT"
+  ]
+}
